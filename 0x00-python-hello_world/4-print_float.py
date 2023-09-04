@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-number = float(3.14159)
-print(f"Float: {round(number, 2)}", end="\n")
+number = 3.14159
+print(f"Float: {float(round(number, 2))}", end="\n")
