@@ -17,8 +17,8 @@ int check_cycle(listint_t *list)
         hare = hare->next->next;
 
         if (turtle == hare)
-            return 1; // Cycle detected
+            return 1; /* Cycle detected */
     }
 
-    return 0; // No cycle found
+    return 0; /* No cycle found */
 }
