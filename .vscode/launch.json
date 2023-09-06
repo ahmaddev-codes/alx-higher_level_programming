@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/ahmad-dev/alx-higher_level_programming/0x00-python-hello_world",
-      "program": "/home/ahmad-dev/alx-higher_level_programming/0x00-python-hello_world/build/Debug/outDebug",
+      "cwd": "/home/ahmad-dev/alx-higher_level_programming",
+      "program": "/home/ahmad-dev/alx-higher_level_programming/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
