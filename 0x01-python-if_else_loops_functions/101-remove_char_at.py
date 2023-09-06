@@ -6,6 +6,8 @@ remove_char_at - A function to remove character at a particular index
 @str: The string to read
 @n: The index to remove from
 """
+
+
 def remove_char_at(str, n):
     new_string = ""
 
