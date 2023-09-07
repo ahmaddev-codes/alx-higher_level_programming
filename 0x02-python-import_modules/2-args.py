@@ -12,14 +12,14 @@ if __name__ == '__main__':
     argument_count = len(argument_vector) - 1
 
     if argument_count > 1:
-        print(argument_count, "arguments:", end="\n")
+        print(argument_count, "arguments:")
         for i in range(1, argument_count + 1):
-            print("{}: {}".format(i, argument_vector[i]), end="\n")
+            print("{}: {}".format(i, argument_vector[i]))
 
     elif argument_count == 1:
         print(argument_count, "argument:")
         for i in range(1, argument_count + 1):
-            print("{}: {}".format(i, argument_vector[i]), end="\n")
+            print("{}: {}".format(i, argument_vector[i]))
 
     elif argument_count == 0:
-        print("{} argument.".format(argument_count))
+        print(argument_count, "{} argument.")
