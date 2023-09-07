@@ -8,18 +8,18 @@ if __name__ == '__main__':
     and prints the number of arguments and their value
 
     """
-    argument_vector = sys.argv
-    argument_count = len(argument_vector) - 1
+    argv = sys.argv
+    argc = len(argv) - 1
 
-    if argument_count > 1:
-        print(argument_count, "arguments:")
-        for i in range(1, argument_count + 1):
-            print("{}: {}".format(i, argument_vector[i]))
+    if argc > 1:
+        print(argc, "arguments:")
+        for i in range(1, argc + 1):
+            print("{:d}: {}".format(i, argv[i]))
 
-    elif argument_count == 1:
-        print(argument_count, "argument:")
-        for i in range(1, argument_count + 1):
-            print("{}: {}".format(i, argument_vector[i]))
+    elif argc == 1:
+        print(argc, "argument:")
+        for i in range(1, argc + 1):
+            print("{:d}: {}".format(i, argv[i]))
 
-    elif argument_count == 0:
-        print(argument_count, "{} argument.")
+    elif argc == 0:
+        print(argc, "arguments.")
