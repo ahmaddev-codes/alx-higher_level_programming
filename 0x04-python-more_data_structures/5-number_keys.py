@@ -15,4 +15,3 @@ def number_keys(a_dictionary):
         count = count + 1
 
     return count
-
