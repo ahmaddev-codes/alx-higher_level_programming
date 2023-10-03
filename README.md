@@ -16,3 +16,4 @@ This repository contains projects on Python programming language.
 * [0x02-python-import_modules](./0x02-python-import_modules)
 * [0x03-python-data_structures](./0x03-python-data_structures)
 * [0x04-python-more_data_structures](./0x04-python-more_data_structures)
+* [0x05-python-exceptions](./0x05-python-exceptions)
