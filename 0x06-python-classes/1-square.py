@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""Square class
+"""Square Class
 
-    A square class that initializes size
-    as a private property
+A Square Class
+
 """
 
 
