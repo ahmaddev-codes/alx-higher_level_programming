@@ -1,6 +1,7 @@
 #include "/usr/include/python3.8"
 #include <stdio.h>
 #include <stdlib.h>
+#include <Python.h>
 
 void print_hexn(const char *str, int n);
 void print_python_float(PyObject *p);
