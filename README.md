@@ -11,9 +11,11 @@ This repository contains projects on Python programming language.
 * Python 3.0 was released in 2008 and was a major revision of the language that is not completely backward-compatible and much Python 2 code does not run unmodified on Python 3.
 * Python consistently ranks as one of the most popular programming languages.
 ## Projects
-* [0x00-python-hello_world](./0x00-python-hello_world)
-* [0x01-python-if_else_loops_functions](./0x01-python-if_else_loops_functions)
-* [0x02-python-import_modules](./0x02-python-import_modules)
-* [0x03-python-data_structures](./0x03-python-data_structures)
-* [0x04-python-more_data_structures](./0x04-python-more_data_structures)
-* [0x05-python-exceptions](./0x05-python-exceptions)
+* [0x00 - Python Hello World](./0x00-python-hello_world)
+* [0x01 - If Else Loops functions](./0x01-python-if_else_loops_functions)
+* [0x02 - Import Modules](./0x02-python-import_modules)
+* [0x03 - Data Structures](./0x03-python-data_structures)
+* [0x04 - More Data Structures](./0x04-python-more_data_structures)
+* [0x05 - Exceptions / Error handling](./0x05-python-exceptions)
+* [0x06 - Classes and Objects](./0x06-python-classes)
+* [0x07 - Test Driven Development (TDD)](./0x07-python-test_driven_development)
