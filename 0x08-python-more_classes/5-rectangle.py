@@ -93,4 +93,4 @@ class Rectangle:
         """prints a message when an instance of a rectangle
         is deleted
         """
-        print("By rectangle...")
+        print("Bye rectangle...")
