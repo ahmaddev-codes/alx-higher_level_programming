@@ -1,9 +1,14 @@
 #!/usr/bin/python3
-"""This module defines a class Ractangle
+"""
+    A module that defines a class Ractangle that does nothing
 
 """
+
+
 class Rectangle:
-    """defines a Rectangle
+    """
+        Creates an empty Rectangle class
 
     """
+
     pass
