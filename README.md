@@ -19,3 +19,4 @@ This repository contains projects on Python programming language.
 * [0x05 - Exceptions / Error handling](./0x05-python-exceptions)
 * [0x06 - Classes and Objects](./0x06-python-classes)
 * [0x07 - Test Driven Development (TDD)](./0x07-python-test_driven_development)
+* [0x08 - More Classes](./0x08-python-more_classes)
