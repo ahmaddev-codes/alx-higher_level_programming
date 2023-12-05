@@ -3,8 +3,8 @@
 This module contains a class that inherits from a base class
 """
 
-
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
 
 class Rectangle(BaseGeometry):
     """A Rectangle class that inherits from BaseGeometry"""
