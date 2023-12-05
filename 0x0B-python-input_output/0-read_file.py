@@ -17,4 +17,4 @@ def read_file(filename=""):
         Nothing
     """
     with open("my_file_0.txt") as myFile:
-        print(myFile.read())
+        print(myFile.read(), end='')
