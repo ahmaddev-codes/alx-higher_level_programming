@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from json import dumps
+import json
 
 
 """
@@ -15,4 +15,4 @@ def to_json_string(my_obj):
     Args:
         my_obj (string): The object to stringify
     """
-    return dumps(my_obj)
+    return json.dumps(my_obj)
