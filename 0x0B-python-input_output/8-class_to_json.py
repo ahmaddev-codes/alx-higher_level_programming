@@ -5,16 +5,15 @@ import json
 """
 This module contains a function that returns the dictionary
 description with simple data structure (list, dictionary, string,
-integer and boolean) for JSON serialization of an object
+integer and boolean)
 """
 
 
 def class_to_json(obj):
-    """ returns the dictionary description with simple data structure
-    for JSON serialization of an object
+    """returns the dictionary description with simple data structure
 
     Args:
-        obj (object): Object to serialize
+        obj (object): Object to convert
     """
     json_dict = {}
 
