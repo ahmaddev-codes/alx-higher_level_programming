@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-import json
-
-
 """
 This module contains a function that returns the dictionary
 description with simple data structure (list, dictionary, string,
