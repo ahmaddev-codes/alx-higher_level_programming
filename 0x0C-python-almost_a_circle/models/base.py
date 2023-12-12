@@ -3,7 +3,7 @@
 
 A model that contains a Base class to manage
 the id attribute of all classes that extend
-from Base and avoid duplicate the same code.
+from Base and avoid duplicating the same code.
 
 """
 
