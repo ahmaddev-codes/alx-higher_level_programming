@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-"""Square Class
-
-A Square Class
-
-"""
-
-
 class Square:
+    """Square Class
+
+    A Square Class
+
+    """
 
     def __init__(self, size=0):
         """__init__
@@ -32,12 +30,7 @@ class Square:
         self.__size = size
 
     def area(self):
-        """area
+        """Returns the current square area
 
-        The area of a square
-
-        Returns:
-            The area of a square
         """
-
-        return (self.__size ** 2)
+        return self.__size ** 2
