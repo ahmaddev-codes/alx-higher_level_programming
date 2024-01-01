@@ -1,9 +1,12 @@
 #!/usr/bin/python3
+"""
+This module contains a Square class
+"""
+
+
 class Square:
     """Square Class
-
     A Square Class
-
     """
 
     def __init__(self, size=0):
@@ -18,7 +21,6 @@ class Square:
             TypeError: If `size` type is not `int`.
 
             ValueError: If `size` is less than `0`.
-
         """
 
         if type(size) is not int:
@@ -27,7 +29,7 @@ class Square:
         if size < 0:
             raise ValueError('size must be >= 0')
 
-        self.size = size
+        self.__size = size
 
     @property
     def size(self):
@@ -45,6 +47,5 @@ class Square:
 
     def area(self):
         """Returns the current square area
-
         """
         return self.__size ** 2
