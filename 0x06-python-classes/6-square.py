@@ -65,9 +65,9 @@ class Square:
         """
 
         if self.__check_tuple(position) is False \
-           or self.__check_indexes(position) is False \
-           or self.__check_integers(position) is False \
-           or self.__check_values(position) is False:
+           and self.__check_indexes(position) is False \
+           and self.__check_integers(position) is False \
+           and self.__check_values(position) is False:
             raise TypeError('position must be a tuple of 2 positive integers')
 
         self.__position = position
