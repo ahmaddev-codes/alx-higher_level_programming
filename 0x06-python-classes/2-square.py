@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 """Square Class
-
-A Square Class
-
+A module that contains a Square Class
 """
 
 
 class Square:
+    """
+    defines a square class
+    """
 
     def __init__(self, size=0):
         """__init__
@@ -18,9 +19,7 @@ class Square:
 
         Raises:
             TypeError: If `size` type is not `int`.
-
             ValueError: If `size` is less than `0`.
-
         """
 
         if type(size) is not int:

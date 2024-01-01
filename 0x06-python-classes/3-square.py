@@ -1,9 +1,12 @@
 #!/usr/bin/python3
+"""
+This module contains a square class
+"""
+
+
 class Square:
-    """Square Class
-
-    A Square Class
-
+    """
+    defines a Square Class
     """
 
     def __init__(self, size=0):
@@ -31,6 +34,6 @@ class Square:
 
     def area(self):
         """Returns the current square area
-
         """
-        return self.__size ** 2
+
+        return self.__size ** 2 
