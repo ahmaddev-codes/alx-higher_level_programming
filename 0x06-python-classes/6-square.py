@@ -63,21 +63,21 @@ class Square:
             TypeError: If position is not a tuple of two positive int
         """
 
-        if self.__check_tuple(position) is False \
-           or self.__check_indexes(position) is False \
-           or self.__check_integers(position) is False \
-           or self.__check_values(position) is False:
+        if self.__check_tuple(value) is False \
+           or self.__check_indexes(value) is False \
+           or self.__check_integers(value) is False \
+           or self.__check_values(value) is False:
             raise TypeError('position must be a tuple of 2 positive integers')
 
-        self.__position = position
+        self.__position = value
 
     def __check_tuple(self, position):
-        if type(position) is tuple:
+        if isinstance(type(position), tuple):
             return True
         return False
 
     def __check_indexes(self, position):
-        if len(position) == 2:
+        if len(position) > 0:
             return True
         return False
 
@@ -99,17 +99,10 @@ class Square:
     def my_print(self):
         if self.__size == 0:
             print()
-            return None
+            return
 
-        if self.__position[1] > 0:
-            for i in range(self.__position[1]):
-                print('')
+        for _ in range(self.__position[1]):
+            print()
 
-        for j in range(1, self.area() + 1):
-            if j % self.__size == 1:
-                print('{:>{w}}'.format('#', w=self.__position[0] + 1), end='')
-            else:
-                print('#', end='')
-
-            if j % self.__size == 0 and j > 0:
-                print()
+        for _ in range(self.__size):
+            print(' ' * self.__position[0] + '#' * self.__size)
