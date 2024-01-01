@@ -60,14 +60,13 @@ class Square:
             value (obj:`int`): The new position of the square.
 
         Raises:
-            TypeError: If position is not a tuple
-            of two positive int
+            TypeError: If position is not a tuple of two positive int
         """
 
         if self.__check_tuple(position) is False \
-           and self.__check_indexes(position) is False \
-           and self.__check_integers(position) is False \
-           and self.__check_values(position) is False:
+           or self.__check_indexes(position) is False \
+           or self.__check_integers(position) is False \
+           or self.__check_values(position) is False:
             raise TypeError('position must be a tuple of 2 positive integers')
 
         self.__position = position
@@ -75,25 +74,21 @@ class Square:
     def __check_tuple(self, position):
         if type(position) is tuple:
             return True
-
         return False
 
     def __check_indexes(self, position):
         if len(position) == 2:
             return True
-
         return False
 
     def __check_integers(self, position):
         if type(position[0]) is int and type(position[1]) is int:
             return True
-
         return False
 
     def __check_values(self, position):
         if position[0] >= 0 and position[1] >= 0:
             return True
-
         return False
 
     def area(self):
