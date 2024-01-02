@@ -1,9 +1,14 @@
 #!/usr/bin/python3
-import dis
+"""
+A module that contains a Magic class
+"""
 import math
 
 
+
 class MagicClass:
+    """defines a Magic class"""
+
     def __init__(self, radius=0):
         self.__radius = 0
 
