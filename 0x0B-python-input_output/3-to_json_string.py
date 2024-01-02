@@ -1,6 +1,11 @@
 #!/usr/bin/python3
-from json import dumps
+"""
+The "to_json_string" function condition
+"""
+
+import json
 
 
 def to_json_string(my_obj):
-    return dumps(my_obj)
+    """returns the JSON representation of an object (string)"""
+    return json.dumps(my_obj)

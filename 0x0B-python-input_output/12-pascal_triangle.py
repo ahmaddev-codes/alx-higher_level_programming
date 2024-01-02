@@ -1,26 +1,19 @@
 #!/usr/bin/python3
+"""
+Module for pascal_triangle method.
+"""
+
+
 def pascal_triangle(n):
-    if n <= 0:
-        return []
+    """
+    returns a list of lists of integers
+        Args:
+            n (int): number of lists and digits
+        Returns: list of lists
 
-    limit = n - 1
-    triangle = [[1]]
-
-    for i in range(limit):
-        row = []
-        row.append(1)
-
-        if len(triangle[i]) > 1:
-            prev_row_len = len(triangle[i]) - 1
-            nxt = 1
-
-            for j in range(prev_row_len):
-                suma = triangle[i][j] + triangle[i][nxt]
-                row.append(suma)
-                nxt += 1
-
-        row.append(1)
-        triangle.append(row)
-
-    return triangle
-
+    """
+    rows = [[1 for j in range(i + 1)] for i in range(n)]
+    for n in range(n):
+        for i in range(n - 1):
+            rows[n][i + 1] = sum(rows[n - 1][i:i + 2])
+    return rows

@@ -1,20 +1,9 @@
 #!/usr/bin/python3
-"""
-This module contains a function that writes
-a string to a text file and returns the number
-of characters written
-"""
+"""The read_file function container"""
 
 
 def read_file(filename=""):
-    """
-    Reads a text file and print it to stdout
-
-    Args:
-        filename (string): name of file to read
-
-    Return:
-        Nothing
-    """
-    with open(filename, encoding="utf8") as myFile:
-        print(myFile.read(), end='')
+    """""reads a text file(UTF8) and prints it to stdout"""
+    with open(filename, "r", encoding="utf-8") as file:
+        files = file.read()
+        print(files, end="")
