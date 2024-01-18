@@ -1,4 +1,8 @@
 -- converts hbtn_0c_0 database to UTF8 (utf8mb4, collate utf8mb4_unicode_ci) in your MySQL server
+
+-- create databse
+CREATE IF NOT EXISTS `hbtn_0c_0`;
+
 USE `hbtn_0c_0`;
 
 -- Convert the database to utf8mb4

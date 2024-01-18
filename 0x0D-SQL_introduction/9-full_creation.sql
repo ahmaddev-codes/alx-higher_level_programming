@@ -1,9 +1,15 @@
 -- A script that creates a table second_table
 -- in the database hbtn_0c_0 in MySQL server
 -- and add multiples rows.
+
+-- create database
+CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
+
+-- use databse
 USE hbtn_0c_0;
 
-CREATE TABLE second_table (
+-- create table
+CREATE TABLE IF NOT EXISTS second_table (
     id INT,
     name VARCHAR(256),
     score INT
