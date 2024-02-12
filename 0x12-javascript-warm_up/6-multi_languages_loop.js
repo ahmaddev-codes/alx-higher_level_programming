@@ -2,7 +2,7 @@
 const array = [
     "C is fun",
     "Python is cool",
-    "JavaScript is amazing"
+    "JavaScript is amazing",
 ];
 
 for (let item of array) {
