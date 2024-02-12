@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const input = process.inputv[2];
+const input = process.argv[2];
 
 if (input) {
     if (input > 0) {
