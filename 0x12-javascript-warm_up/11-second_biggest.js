@@ -8,5 +8,5 @@ if (process.argv[3]) {
     second_biggest = sorted_array.pop();
     console.log(second_biggest);
 } else {
-    console.log(0)
+    console.log(0);
 }
