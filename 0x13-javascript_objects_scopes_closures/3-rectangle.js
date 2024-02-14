@@ -1,6 +1,6 @@
 #!/usr/bin/node
 class Rectangle {
-  constructor(w, h) {
+  constructor (w, h) {
     if (w <= 0 || h <= 0 || w === undefined || h === undefined) {
       this.width = undefined;
       this.height = undefined;
@@ -10,7 +10,7 @@ class Rectangle {
     }
   }
 
-  print() {
+  print () {
     let shape = '';
     for (let i = 0; i < this.height; i++) {
       for (let j = 0; j < this.width; j++) {
