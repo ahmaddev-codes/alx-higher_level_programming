@@ -3,10 +3,10 @@ const argArray = process.argv;
 const newArray = argArray.slice(2);
 
 if (process.argv[3]) {
-    sorted_array = newArray.sort();
-    sorted_array.pop();
-    second_biggest = sorted_array.pop();
-    console.log(second_biggest);
+  const sortedAray = newArray.sort();
+  sortedAray.pop();
+  const secondBiggest = sortedAray.pop();
+  console.log(secondBiggest);
 } else {
-    console.log(0);
+  console.log(0);
 }
