@@ -1,6 +1,6 @@
 #!/usr/bin/node
 class Rectangle {
-  shape = 'X'
+  shape = 'X';
   constructor (w, h) {
     if (w <= 0 || h <= 0 || w === undefined || h === undefined) {
       this.width = undefined;
