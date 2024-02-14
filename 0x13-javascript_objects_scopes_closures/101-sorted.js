@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const { dict } = require('./101-data');
 
-function computeUserIdsByOccurrence(inputDict) {
+function computeUserIdsByOccurrence (inputDict) {
   const resultDict = {};
 
   for (const userId in inputDict) {
