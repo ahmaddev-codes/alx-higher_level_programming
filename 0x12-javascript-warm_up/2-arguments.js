@@ -1,7 +1,6 @@
 #!/usr/bin/node
 
 let array = process.argv;
-console.log(array)
 
 if (array.length == 3) {
   console.log('Argument found');
